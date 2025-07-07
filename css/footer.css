@@ -1,0 +1,131 @@
+/* ===========================
+   FOOTER STYLES
+   =========================== */
+
+.spotify-footer {
+  color: #b3b3b3;
+  padding: 40px 20px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 160px;
+  border-top: 1px solid #333;
+}
+
+/* ===========================
+   FOOTER TOP SECTION
+   =========================== */
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-date p {
+  margin: 4px 0;
+}
+
+/* ===========================
+   FOOTER COLUMNS
+   =========================== */
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.footer-column h4 {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+  color: #1fdf64;
+}
+
+/* ===========================
+   FOOTER SOCIAL LINKS
+   =========================== */
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.footer-socials a {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+}
+
+.footer-socials a:hover {
+  background-color: #1fdf64;
+  color: #000;
+}
+
+/* ===========================
+   FOOTER BOTTOM SECTION
+   =========================== */
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #282828;
+  padding-top: 20px;
+  gap: 15px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-links a:hover {
+  color: #1fdf64;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  margin: 0;
+}

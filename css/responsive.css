@@ -1,0 +1,209 @@
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+
+/* ===========================
+   LARGE TABLETS & SMALL DESKTOPS
+   =========================== */
+@media (max-width: 1200px) {
+  .navbar-container .left {
+    width: unset;
+  }
+  .navbar-container .right-menu {
+    display: none;
+  }
+  .hamburger-menu,
+  .hamburger {
+    display: block;
+  }
+  .dropdown-menu {
+    width: 320px;
+    max-width: 90vw;
+  }
+  .navbar-container input[type="text"] {
+    width: 300px;
+  }
+  .library-section {
+    padding: 12px;
+  }
+  .sidebar {
+    padding: 10px;
+    width: 22%;
+  }
+}
+
+/* ===========================
+   MOBILE LANDSCAPE & TABLETS
+   =========================== */
+@media (max-width: 770px) {
+  .mobile {
+    display: none;
+  }
+  .navbar-container .left,
+  .navbar-container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .navbar-container {
+    justify-content: space-between;
+    padding: 7px 19px;
+  }
+  .navbar-container .left img {
+    height: 25px;
+  }
+  [alt="Spotify"] {
+    height: 35px !important;
+  }
+  .sidebar {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .main {
+    margin-bottom: 40px;
+  }
+  .main h2 {
+font-size: 23px;
+  }
+  .main-container {
+    padding: 20px;
+  }
+
+  /* Footer */
+  .footer-top {
+    flex-direction: column;
+  }
+  .footer-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: left;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  .footer-socials {
+    margin-top: 0;
+  }
+
+  /* Song Details */
+
+  .topcard {
+    flex-direction: column;
+    align-items: center;
+  }
+  .lyrics-artist {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .play-button1 {
+    width: 50px;
+    height: 50px;
+  }
+  .lyrics-text {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 320px;
+  }
+}
+
+/* ===========================
+   TABLETS & MEDIUM SCREENS
+   =========================== */
+@media (max-width: 768px) {
+  /* Playbar */
+  .playbar {
+    height: 90px;
+    padding: 8px;
+  }
+  .songinfo {
+    width: 180px;
+  }
+  .songinfo h3 {
+    font-size: 16px;
+  }
+  .songinfo p {
+    font-size: 12px;
+  }
+  .songbuttons img {
+    width: 28px;
+    height: 28px;
+  }
+  .songtime {
+    width: 117px;
+    font-size: 12px;
+  }
+
+  /* Support Page */
+  header h1 {
+    font-size: 2em;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 0.95em;
+  }
+  .home-button {
+    top: 4px;
+    left: 3px;
+    padding: 6px 10px;
+    border-radius: 18px;
+    scale: 0.9;
+  }
+}
+
+/* ===========================
+   MOBILE DEVICES
+   =========================== */
+@media (max-width: 600px) {
+  /* Premium Page */
+  .logo {
+    width: 200px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  .payment {
+    gap: 1.3rem;
+  }
+  .payment img {
+    height: 29px;
+  }
+  .home {
+    margin-top: 20px;
+  }
+
+  /* Popup & Modal */
+  .popup {
+    width: 300px;
+    height: 260px;
+  }
+  .popup-content {
+    padding: 20px;
+  }
+  .popup-content h2 {
+    font-weight: 900;
+    font-size: 1.3rem;
+  }
+  .popup-content p {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  .success-icon {
+    font-size: 28px;
+    color: #1ed75fdb;
+    animation: popIn 0.4s ease;
+  }
+  .back-link {
+    margin-top: 0px;
+  }
+  .home-button {
+    top: 15px;
+    left: 8px;
+  }
+  .songtitle {
+    font-size: 41px;
+  }
+}

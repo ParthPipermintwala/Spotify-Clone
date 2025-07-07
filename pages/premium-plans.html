@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Premium - Spotify Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/premium-plans.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <a href="../index.html" class="home-button">
+      <svg
+        class="home-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="#1DB954"
+      >
+        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+      </svg>
+    </a>
+
+    <div class="container">
+      <h1>Go Premium. Get More Out of Your Music.</h1>
+      <p>
+        Ad-free music, offline listening, and more. Unlock the best Spotify
+        experience with Premium.
+      </p>
+      <!-- benefit-box  -->
+      <div class="benefits">
+        <div class="benefit-box">
+          <i class="fas fa-music"></i>
+          <h3>Ad-free Music</h3>
+          <p>Enjoy uninterrupted music without any ads.</p>
+        </div>
+
+        <div class="benefit-box">
+          <i class="fas fa-cloud-arrow-down"></i>
+          <h3>Offline Playback</h3>
+          <p>Download songs and listen anywhere — even without internet.</p>
+        </div>
+
+        <div class="benefit-box">
+          <i class="fas fa-forward"></i>
+          <h3>Unlimited Skips</h3>
+          <p>Skip as many songs as you like. No restrictions.</p>
+        </div>
+
+        <div class="benefit-box">
+          <i class="fas fa-headphones"></i>
+          <h3>High-Quality Audio</h3>
+          <p>Stream music at the highest audio quality available.</p>
+        </div>
+      </div>
+
+      <div class="pricing-toggle">
+        <button id="pricingToggleBtn">Switch to Yearly Plans</button>
+      </div>
+      <!-- price  -->
+      <div class="pricing-plans">
+        <div class="plan">
+          <h3><i class="fas fa-user"></i> Individual</h3>
+          <p class="price" id="individualPrice">119₹/mo</p>
+        </div>
+
+        <div class="plan">
+          <h3><i class="fas fa-users"></i> Duo</h3>
+          <p class="price" id="duoPrice">149₹/mo</p>
+        </div>
+
+        <div class="plan">
+          <h3><i class="fas fa-home"></i> Family</h3>
+          <p class="price" id="familyPrice">179₹/mo</p>
+        </div>
+
+        <div class="plan">
+          <h3><i class="fas fa-graduation-cap"></i> Student</h3>
+          <p class="price" id="studentPrice">59₹/mo</p>
+        </div>
+      </div>
+      <br />
+      <!-- comparison  -->
+      <div class="comparison">
+        <h2>Compare Plans</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th class="center">Free</th>
+              <th class="center">Premium</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ad-Free Music</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>Offline Listening</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>Unlimited Skips</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>High-Quality Audio</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>Monthly Price</td>
+              <td class="center">Free</td>
+              <td class="center">119rs</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="cta">
+        <p>Ready to upgrade your listening?</p>
+        <a href="premium.html"
+          ><button class="btn" onclick="window.location.href='signup.html'">
+            Get Premium
+          </button></a
+        >
+      </div>
+    </div>
+
+    <script src="../js/pricing-plans.js"></script>
+  </body>
+</html>

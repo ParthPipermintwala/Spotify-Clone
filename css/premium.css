@@ -1,0 +1,115 @@
+/* ===========================
+   PREMIUM PAGE STYLES
+   =========================== */
+
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2c2c3e);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-x: hidden !important;
+  text-align: center;
+}
+
+.promo-container {
+  margin: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.Feature {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  width: 250px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1db954;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+.payment-text {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.payment {
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  gap: 2.4rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  background-color: #1db954;
+  border: none;
+  border-radius: 2rem;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment img {
+  height: 32px;
+}
+
+.btn:hover {
+  background-color: #1ed760;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 0.3rem;
+}
+
+/* ===========================
+   ANIMATIONS
+   =========================== */
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,120 @@
+/* ===========================
+   SUPPORT PAGE STYLES
+   =========================== */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212;
+  color: #fff;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 2px solid #1db954;
+  border-radius: 23px;
+  background-color: transparent;
+  transition: all 0.4s ease;
+}
+
+.home-icon {
+  fill: #1db954;
+  transition: fill 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #1db954;
+}
+
+.home-button:hover .home-icon {
+  fill: #000;
+}
+
+.home-button:hover .home-label {
+  color: #000;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.container {
+  padding: 40px 20px;
+  max-width: 550px;
+  margin: auto;
+}
+
+.support-section {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.support-section h2 {
+  color: #1db954;
+  margin-top: 0;
+}
+
+.support-section p {
+  line-height: 1.6;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: #2c2c2c;
+  color: #fff;
+  font-size: 1em;
+}
+
+button {
+  margin: 35px auto 0 auto;
+  background-color: #1db954;
+  color: white;
+  width: 180px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #17a44d;
+  scale: 1.01;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000af;
+}
+
+

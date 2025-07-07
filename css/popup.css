@@ -1,0 +1,134 @@
+ .popup {
+        position: fixed;
+        top: 50px;
+        left: 400px;
+        width: 450px;
+        height: 300px;
+        background-color: #222326;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6),
+          0 0 10px rgba(30, 215, 96, 0.2);
+        animation: popup 0.6s ease-in forwards;
+      }
+      @keyframes popup {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          opacity: 1;
+        }
+      }
+      .hidden {
+        display: none;
+      }
+        .blur {
+        filter: contrast(0.9) blur(10px);
+      }
+
+      .close {
+        position: absolute;
+        top: 8px;
+        right: 13px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        animation: popIn 0.6s ease;
+      }
+      .popup-content {
+        padding: 20px;
+        text-align: center;
+      }
+      .popup-content h2 {
+        text-align: center;
+        color: #1ed760;
+        font-weight: 900;
+        font-size: 1.8rem;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+      }
+      .success-icon {
+        font-size: 32px;
+        color: #1ed75fdb;
+        animation: popIn 0.4s ease;
+      }
+      .popup-content p {
+        color: #f1f1f1;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 0;
+      }
+      .close:hover {
+        color: #2ce26c;
+        transition: color 0.4s ease-in-out;
+        scale: 1.1;
+      }
+
+      .back-link {
+        color: #1ed760;
+        font-weight: bold;
+        transition: all 0.3s;
+         display: block;
+        margin-top: 1.5rem;
+        color: #1db954;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .back-link:hover {
+        color: #ffffff;
+        text-decoration: underline;
+        transform: scale(1.05);
+      }
+     
+
+      /* Floating notes */
+      .floating-notes {
+        position: relative;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 20px;
+        gap: 10px;
+      }
+
+      .floating-notes span {
+        font-size: 1.8rem;
+        animation: floatUp 2.2s ease-in-out infinite;
+      }
+
+      .floating-notes span:nth-child(2) {
+        animation-delay: 0.4s;
+      }
+      .floating-notes span:nth-child(3) {
+        animation-delay: 0.6s;
+      }
+
+      
+
+      @keyframes floatUp {
+        0% {
+          transform: translateY(0);
+          opacity: 0.8;
+        }
+        50% {
+          transform: translateY(-10px);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 0.8;
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          transform: translateY(20px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }

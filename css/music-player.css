@@ -1,0 +1,154 @@
+/* ===========================
+   MUSIC PLAYER ANIMATIONS
+   =========================== */
+
+@keyframes slideUpFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ===========================
+   PLAYBAR STYLES
+   =========================== */
+
+.playbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  filter: invert(1);
+  background: #e2d9d9;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  padding: 12px;
+  height: 80px;
+  z-index: 1000;
+  cursor: pointer;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.playbar:not(.hidden) {
+  animation: slideUpFromBottom 0.6s ease-out;
+}
+
+.playbar.hidden {
+  display: none;
+}
+
+.playbar.show {
+  animation: slideUpFromBottom 0.6s ease-out;
+}
+
+/* ===========================
+   PLAYBAR COMPONENTS
+   =========================== */
+
+.songbuttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+}
+
+.songbuttons img {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.songbuttons img:hover {
+  transform: scale(1.1);
+}
+
+.seekbar {
+  height: 3.5px;
+  width: 96%;
+  background: black;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 1.5px;
+  margin: 6px;
+  cursor: pointer;
+  transition: height 0.2s ease;
+}
+
+.seekbar:hover {
+  height: 5px;
+}
+
+.circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  bottom: 5px;
+  left: 0%;
+  transition: left 0.5s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.circle:hover {
+  transform: scale(1.2);
+}
+
+.abovebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+/* ===========================
+   SONG INFO & TIME
+   =========================== */
+
+.songinfo {
+  color: black;
+  padding: 0 12px;
+  width: 250px;
+  animation: fadeIn 0.5s ease;
+}
+
+.songinfo h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.songinfo p {
+  margin: 0;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #616060;
+  opacity: 0.8;
+}
+
+.songtime {
+  width: 125px;
+  color: black;
+  padding: 0 12px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: right;
+}
+
+

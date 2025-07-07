@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone - Support</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/32/174/174872.png">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/180/174/174872.png">
+    
+    <link rel="stylesheet" href="../css/support.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Spotify Support</h1>
+
+      <a href="../index.html" class="home-button">
+        <svg
+          class="home-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="#1DB954"
+        >
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+        </svg>
+      </a>
+    </header>
+    <div class="container">
+      <div class="support-section">
+        <h2>Need Help?</h2>
+        <p>
+          If you're having issues with your account, streaming problems, or
+          anything else, we're here to help. Check out our FAQs below or contact
+          us directly.
+        </p>
+      </div>
+
+      <div class="support-section">
+        <h2>Contact Us</h2>
+        <form id="supportForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Describe your issue..."
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p id="responseMsg" style="margin-top: 10px"></p>
+      </div>
+    </div>
+    <footer>&copy; 2025 Spotify Clone. All rights reserved.</footer>
+    <script src="../js/support.js"></script>
+  </body>
+</html>

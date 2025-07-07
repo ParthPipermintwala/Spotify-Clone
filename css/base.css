@@ -1,0 +1,77 @@
+/* ===========================
+   BASE STYLES & RESETS
+   =========================== */
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+/* ===========================
+   UTILITY CLASSES
+   =========================== */
+
+.hidden {
+  display: none !important;
+}
+
+/* ===========================
+   SCROLLBAR STYLES
+   =========================== */
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* ===========================
+   ANIMATIONS
+   =========================== */
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(800px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/32/174/174872.png">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/180/174/174872.png">
+    
+    <!-- Organized CSS Structure -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/music-player.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- External Dependencies -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- Backup Font Awesome CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar-container">
+      <!-- left -->
+      <div class="left">
+        <a href="index.html"
+          ><img src="./nav_icon/Spotify_logo_with_text.svg" alt="Spotify"
+        /></a>
+        <a href="index.html"
+          ><img
+            src="./nav_icon/home.png"
+            alt="Home"
+            class="mobile"
+            id="homeBtn"
+        /></a>
+        <div class="search">
+          <img src="./nav_icon/search--v1.png" alt="Search" class="mobile" />
+          <input
+            type="text"
+            placeholder="What do you want to play?"
+            class="mobile"
+            id="search"
+          />
+        </div>
+      </div>
+
+      <!-- right -->
+      <div class="right">
+        <div class="right-menu">
+          <a href="pages/premium-plans.html">Premium</a>
+          <a href="pages/support.html">Support</a>
+          <a href="https://www.spotify.com/in-en/download/windows/">Download</a>
+          &nbsp;
+          <span class="navbar-divider">|</span>
+          <a href="https://open.spotify.com/download">Install App</a>
+          <a href="pages/signup.html" id="signup" class="">Sign up</a>
+          <a href="pages/login.html" id="login" class=""
+            ><button>Log in</button></a
+          >
+          <a href="#" class="user"
+            ><div id="user-area">
+              <span class="userName"></span>
+              <i class="fas fa-user-circle hidden" id="user-icon"></i>
+              <div class="logout">
+                <ul id="logout">
+                  <li class="logoutbtn">
+                    <i class="fas fa-sign-in-alt"></i> Log out
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="hamburger-menu">
+          <div class="hamburger" id="hamburger">
+            <img src="./nav_icon/icons8-hamburger-menu.svg" alt="Menu" />
+          </div>
+
+          <!--dropdown menu -->
+          <div class="dropdown-menu hidden" id="dropdownMenu">
+            <div class="menu-header">
+              <h3>Navigation</h3>
+              <span class="close-btn" id="closeMenu">&times;</span>
+            </div>
+            <div class="menu-items">
+              <a href="pages/premium-plans.html" class="menu-item">
+                <i class="fas fa-crown"></i>
+                <span>Premium</span>
+              </a>
+              <a href="pages/support.html" class="menu-item">
+                <i class="fas fa-headset"></i>
+                <span>Support</span>
+              </a>
+              <a
+                href="https://www.spotify.com/in-en/download/windows/"
+                class="menu-item"
+              >
+                <i class="fas fa-download"></i>
+                <span>Download</span>
+              </a>
+              <a href="https://open.spotify.com/download" class="menu-item">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Install App</span>
+              </a>
+              <div class="logopt">
+                <div class="menu-divider"></div>
+                <a href="pages/signup.html" class="menu-item" id="signup">
+                  <i class="fas fa-user-plus"></i>
+                  <span>Sign up</span>
+                </a>
+                <a
+                  href="pages/login.html"
+                  class="menu-item login-btn"
+                  id="login"
+                >
+                  <i class="fas fa-sign-in-alt login-icon-white"></i>
+                  <span>Log in</span>
+                </a>
+              </div>
+
+              <!-- User area for logged in users -->
+              <div class="user-menu-area hidden" id="userMenuArea">
+                <div class="menu-divider"></div>
+                <div class="user-info">
+                  <i class="fas fa-user-circle" id="user-icon-menu"></i>
+                  <span class="userName-menu"></span>
+                </div>
+                <a href="#" class="menu-item logout-item" id="logoutBtn">
+                  <i class="fas fa-sign-out-alt"></i>
+                  <span class="logoutbtn2">Log out</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- container -->
+    <div class="container">
+      <div class="sidebar">
+        <h3>Your Library</h3>
+        <div class="library-section">
+          <h4>Create your first playlist</h4>
+          <p>It's easy, we'll help you</p>
+          <button>Create playlist</button>
+        </div>
+
+        <div class="recent-section library-section">
+          <h3>Recently Played</h3>
+          <div class="scroll">
+            <ul id="recentList">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- song section  -->
+      <div class="main">
+        <div class="main-animate">
+          <div class="section">
+            <h2>🔥Trending Songs</h2>
+            <p class="section-description">
+              Here's what people are vibing to right now.
+            </p>
+            <div class="card-container song-card">
+              <div class="arrow-btn left hidden">
+                <span class="material-icons">chevron_left</span>
+              </div>
+
+              <div class="arrow-btn right hidden">
+                <span class="material-icons">chevron_right</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="Artists section">
+            <h2>🎤 Top Artists</h2>
+            <p class="section-description">
+              Discover artists from around the world.
+            </p>
+            <div class="artist-card card-container">
+              <div class="arrow-btn left arrow2 hidden">
+                <span class="material-icons">chevron_left</span>
+              </div>
+
+              <div class="arrow-btn right arrow2 hidden">
+                <span class="material-icons">chevron_right</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>🎵 Pick a Mood, Play a Vibe</h2>
+            <p style="color: #b3b3b3; margin-bottom: 20px; margin-left: 18px">
+              Whatever You Feel, We’ve Got the Sound
+            </p>
+            <div class="mood-card card-container">
+              <div class="arrow-  <p>© 2025 Parth Pipermintwala</p>
+              <p>© 2025 Parth Pipermintwala</p>
+              </div>
+
+              <div class="arrow-btn right hidden">
+                <span class="material-icons">chevron_right</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer  -->
+          <footer class="spotify-footer">
+            <div class="footer-top">
+              <div class="footer-date">
+                <p>july 7, 2025</p>
+                <p>© 2025 @ParthPipermintwala</p>
+                <p>© 2025 @ParthPipermintwala</p>
+              </div>
+
+              <div class="footer-columns">
+                <div class="footer-column">
+                  <h4>Company</h4>
+                  <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">For the Record</a></li>
+                  </ul>
+                </div>
+                <div class="footer-column">
+                  <h4>Communities</h4>
+                  <ul>
+                    <li><a href="#">For Artists</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Vendors</a></li>
+                  </ul>
+                </div>
+                <div class="footer-column">
+                  <h4>Useful links</h4>
+                  <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Free Mobile App</a></li>
+                  </ul>
+                </div>
+                <div class="footer-column">
+                  <h4>Spotify Plans</h4>
+                  <ul>
+                    <li><a href="#">Premium Individual</a></li>
+                    <li><a href="#">Premium Duo</a></li>
+                    <li><a href="#">Premium Family</a></li>
+                    <li><a href="#">Premium Student</a></li>
+                    <li><a href="#">Spotify Free</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+   Clone           <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <div class="footer-links">
+                <a href="#">Legal</a>
+                <a href="#">Safety & Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">About Ads</a>
+                <a href="#">Accessibility</a>
+              </div>
+              <p class="copyright">© 2025 Spotify Clone</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

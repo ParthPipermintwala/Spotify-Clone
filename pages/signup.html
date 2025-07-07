@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Sign Up</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/32/174/174872.png">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/180/174/174872.png">
+    
+    <link rel="stylesheet" href="../css/popup.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/signup.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <a href="../index.html" class="home-button">
+      <svg
+        class="home-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="#1DB954"
+      >
+        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+      </svg>
+    </a>
+    <div class="container">
+      <h1>Sign up for Spotify</h1>
+
+      <form id="signupForm" novalidate>
+        <div class="form-group">
+          <label for="name">What’s your name?</label>
+          <input type="text" id="name" placeholder="Full Name" required />
+          <div class="error" id="nameError"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">What’s your email?</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="you@example.com"
+            required
+          />
+          <div class="error" id="emailError"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Create a password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="••••••••"
+            required
+          />
+          <span class="toggle-password" onclick="togglePassword()">👁️</span>
+          <div class="error" id="passwordError"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="confirm">Confirm your password</label>
+          <input type="password" id="confirm" placeholder="••••••••" required />
+          <div class="error" id="confirmError"></div>
+        </div>
+
+        <div class="divider">or</div>
+
+        <button
+          class="social-btn google"
+          onclick="window.open('https://accounts.google.com/', '_blank')"
+        >
+          Sign up with Google
+        </button>
+        <button
+          class="social-btn facebook"
+          onclick="window.open('https://facebook.com/login', '_blank')"
+        >
+          Sign up with Facebook
+        </button>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="marketing" />
+          <label for="marketing">Send me news and offers from Spotify</label>
+        </div>
+
+        <a href="../index.html"
+          ><button type="submit" class="signup-btn">Sign Up</button></a
+        >
+      </form>
+
+      <div class="login-text">
+        Already have an account? <a href="login.html">Log in</a>
+      </div>
+    </div>
+
+    <!-- popup -->
+    <div class="popup hidden">
+      <i class="fas fa-times close"></i>
+      <div class="popup-content">
+        <h2>
+          Account Created!
+
+          <i class="fas fa-check-circle success-icon"></i>
+        </h2>
+
+        <p>
+          Welcome to Spotify! Your account has been successfully created. Enjoy
+          your music journey!
+        </p>
+
+        <!-- Floating Music Notes -->
+        <div class="floating-notes">
+          <span>🎵</span>
+          <span>🎶</span>
+          <span>🎵</span>
+        </div>
+        <a href="../index.html" class="back-link"
+          ><i class="fas fa-arrow-left" class="back-link"></i> Back to Home</a
+        >
+      </div>
+    </div>
+
+    <!-- popup -->
+    <div class="popup exist hidden">
+      <i class="fas fa-times close"></i>
+      <div class="popup-content">
+        <h2>Account Already Exists!</h2>
+
+        <p>"❌ Email already registered. Please use a different email."</p>
+
+        <!-- Floating Music Notes -->
+        <div class="floating-notes">
+          <span>🎵</span>
+          <span>🎶</span>
+          <span>🎵</span>
+        </div>
+        <a href="login.html" class="back-link"
+          ><i class="fas fa-arrow-left back-link"></i> Proceed to Login</a
+        >
+      </div>
+    </div>
+
+    <script src="../js/auth-signup.js"></script>
+  </body>
+</html>

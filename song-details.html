@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Song Details - Spotify Clone</title>
+    <!-- Organized CSS Structure -->
+    <style>
+      /* ===========================
+   SONG DETAIL PAGE (SONG-DETAILS.HTML)
+   =========================== */
+
+      .main-container {
+        background: linear-gradient(
+          to bottom,
+          rgba(85, 107, 47, 0.8) 5%,
+          #1a1a1a 21%,
+          #00000083 34%
+        );
+        color: #fff;
+        font-family: "Helvetica Neue", sans-serif;
+        padding: 40px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        animation: slideInRight 0.7s linear;
+      }
+
+      /* ===========================
+   TOP CARD SECTION
+   =========================== */
+
+      .topcard {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+
+      .topcard img {
+        width: 250px;
+        height: 250px;
+        border-radius: 8px;
+      }
+
+      #songlogo {
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #b3b3b3;
+        margin-bottom: 5px;
+      }
+
+      .songtitle {
+        font-size: 56px;
+        margin: 0;
+        margin-top: -8px;
+        margin-bottom: -4px;
+        font-weight: 900;
+      }
+
+      .songdetails {
+        color: #b3b3b3;
+        font-size: 14px;
+        margin-top: 8px;
+      }
+
+      .songdetails span {
+        color: white;
+        font-weight: 500;
+      }
+
+      /* ===========================
+   FEATURE BUTTONS
+   =========================== */
+
+      .feture-buttons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+
+      .play-button1 {
+        background-color: #1fdf64;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .play-button1:hover {
+        box-shadow: 0 0 10px #1fdf64;
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+      }
+
+      .plus {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 36px;
+      }
+
+      .dots {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 25px;
+      }
+
+      /* ===========================
+   BOTTOM CONTAINER
+   =========================== */
+
+      /* .bottom-container styles are inherited from layout.css */
+
+      /* ===========================
+   LYRICS & ARTIST SECTION
+   =========================== */
+
+      .lyrics-artist {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        margin-bottom: 50px;
+      }
+
+      .lyrics-artist h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      /* ===========================
+   LYRICS
+   =========================== */
+
+      .lyrics-text {
+        line-height: 1.8;
+        font-size: 16px;
+        color: #e0e0e0;
+        max-height: 255px;
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+      }
+
+      .lyrics-text.expanded {
+        max-height: 1000px;
+      }
+
+      .show-toggle {
+        color: #1fdf64;
+        cursor: pointer;
+        margin-top: 10px;
+        display: inline-block;
+        font-weight: 600;
+      }
+
+      /* ===========================
+   ARTIST INFO
+   =========================== */
+
+      .artistdiv {
+        width: 350px;
+        flex-shrink: 0;
+      }
+
+      .artistdiv h2 {
+        margin-left: 13px;
+      }
+
+      .artistinfo {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+
+      .artistimg {
+        width: 75px;
+        height: 65px;
+        border-radius: 50%;
+      }
+
+      .artistname {
+        font-weight: 600;
+      }
+
+      .artistlogo {
+        font-size: 12px;
+        color: #b3b3b3;
+      }
+
+      .see-more {
+        text-decoration: none;
+      }
+
+      /* ===========================
+   DYNAMIC ARTIST INFO
+   =========================== */
+
+      #dynamic-artists {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .artist-info-card {
+        width: 100%;
+      }
+
+      .artist-info-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+      }
+
+      .artist-info-item:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      .artist-info-img {
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .artist-info-details h4 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+      }
+
+      .artist-info-details p {
+        margin: 4px 0 0 0;
+        font-size: 14px;
+        color: #b3b3b3;
+      }
+
+      /* ===========================
+   INNER PAGE ADJUSTMENTS
+   =========================== */
+
+      .section {
+        margin-right: -30px;
+        margin-left: -15px;
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="css/song-details.css" /> -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/music-player.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- External Dependencies -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="js/app.js" defer></script>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- Top section with album art and title -->
+      <div class="topcard">
+        <img src="${song.cover}" />
+        <div>
+          <p id="songlogo">Song</p>
+          <h1 class="songtitle">${song.title}</h1>
+          <p class="songdetails">
+            <span>${song.artist}</span>
+            • ${song.title} • 2024 • 4:00 • 179,981
+          </p>
+        </div>
+      </div>
+
+      <!-- Play button row -->
+      <div class="feture-buttons">
+        <button class="play-button1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="30"
+            height="30"
+            fill="black"
+          >
+            <polygon points="6,4 20,12 6,20" />
+          </svg>
+        </button>
+
+        <button class="plus">＋</button>
+        <button class="dots">⋯</button>
+      </div>
+
+      <!-- Lyrics and Artist Info -->
+      <div class="bottom-container">
+        <!-- Lyrics Section -->
+        <div class="lyrics-artist">
+          <div>
+            <h2>Lyrics</h2>
+            <pre class="lyrics-text" id="lyrics">${song.lyrics}</pre>
+            <span class="show-toggle" id="toggleLyrics">Show More</span>
+          </div>
+
+          <!-- Artist Info Section -->
+          <div class="artistdiv">
+            <h2>Artists</h2>
+            <div id="dynamic-artists">
+              <!-- Artists will be populated dynamically -->
+            </div>
+          </div>
+        </div>
+
+        <div class="Artists section">
+          <h2>🎤 Top Artists</h2>
+          <p class="section-description">
+            Discover artists from around the world.
+          </p>
+          <div class="artist-card card-container">
+            <div class="arrow-btn left arrow2 hidden">
+              <span class="material-icons">chevron_left</span>
+            </div>
+
+            <div class="arrow-btn right arrow2 hidden">
+              <span class="material-icons">chevron_right</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>🔥Trending Songs</h2>
+          <p class="section-description">
+            Here's what people are vibing to right now.
+          </p>
+          <div class="card-container song-card">
+            <div class="arrow-btn left hidden">
+              <span class="material-icons">chevron_left</span>
+            </div>
+
+            <div class="arrow-btn right hidden">
+              <span class="material-icons">chevron_right</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>🎵 Pick a Mood, Play a Vibe</h2>
+          <p style="color: #b3b3b3; margin-bottom: 20px; margin-left: 18px">
+            Whatever You Feel, We’ve Got the Sound
+          </p>
+          <div class="mood-card card-container">
+            <div class="arrow-btn left hidden">
+              <span class="material-icons">chevron_left</span>
+            </div>
+
+            <div class="arrow-btn right hidden">
+              <span class="material-icons">chevron_right</span>
+            </div>
+          </div>
+        </div>
+
+        <footer class="spotify-footer">
+          <div class="footer-top">
+            <div class="footer-date">
+              <p>March 7, 2025</p>
+              <p>© 2025 Parth Pipermintwala</p>
+              <p>© 2025 Parth Pipermintwala</p>
+            </div>
+
+            <div class="footer-columns">
+              <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="#">For the Record</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h4>Communities</h4>
+                <ul>
+                  <li><a href="#">For Artists</a></li>
+                  <li><a href="#">Developers</a></li>
+                  <li><a href="#">Advertising</a></li>
+                  <li><a href="#">Investors</a></li>
+                  <li><a href="#">Vendors</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h4>Useful links</h4>
+                <ul>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Free Mobile App</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h4>Spotify Plans</h4>
+                <ul>
+                  <li><a href="#">Premium Individual</a></li>
+                  <li><a href="#">Premium Duo</a></li>
+                  <li><a href="#">Premium Family</a></li>
+                  <li><a href="#">Premium Student</a></li>
+                  <li><a href="#">Spotify Free</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-socials">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="footer-links">
+              <a href="#">Legal</a>
+              <a href="#">Safety & Privacy Center</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Cookies</a>
+              <a href="#">About Ads</a>
+              <a href="#">Accessibility</a>
+            </div>
+            <p class="copyright">© 2025 Spotify Clone</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div class="playbar hidden">
+      <div class="seekbar">
+        <div class="circle" draggable="true"></div>
+      </div>
+      <div class="abovebar">
+        <div class="songinfo"></div>
+
+        <div class="songbuttons">
+          <img width="35" id="previous" src="svg/prevsong.svg" alt="" />
+          <img width="35" id="play" src="svg/play.svg" alt="" />
+          <img width="35" src="svg/pause.svg" alt="" class="hidden pause" />
+          <img width="35" id="next" src="svg/nextsong.svg" alt="" />
+        </div>
+        <div class="songtime"></div>
+      </div>
+    </div>
+  </body>
+</html>

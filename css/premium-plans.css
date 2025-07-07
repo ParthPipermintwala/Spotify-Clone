@@ -1,0 +1,217 @@
+/* ===========================
+   PREMIUM PLANS PAGE STYLES
+   =========================== */
+
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 0.5s ease-in forwards, fadeInUp 0.9s ease-in forwards;
+  overflow-x: hidden;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 2px solid #1db954;
+  border-radius: 25px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.home-icon {
+  fill: #1db954;
+  transition: fill 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #1db954;
+}
+
+.home-button:hover .home-icon {
+  fill: #000;
+}
+
+.home-button:hover .home-label {
+  color: #000;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.benefits,
+.pricing-toggle {
+  margin-bottom: 2rem;
+}
+
+.benefits,
+.pricing-plans {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.benefit-box {
+  background-color: #1f2937;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  flex: 1 1 45%;
+}
+
+.benefit-box i,
+.plan h3 i {
+  font-size: 1.5rem;
+  color: #10b981;
+}
+
+.comparison,
+.testimonials {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  animation: fadeIn 1s ease;
+  margin-bottom: 2rem;
+}
+
+.comparison i {
+  text-align: center;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #374151;
+}
+
+th {
+  color: #10b981;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 2rem;
+  animation: fadeInUp 1s ease;
+}
+
+.btn {
+  background-color: #10b981;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 9999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0e9e74;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.testimonials cite {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+  color: #9ca3af;
+}
+
+.plan {
+  background-color: #1f2937;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.plan h3 {
+  margin-bottom: 0.5rem;
+}
+
+.plan h3 i {
+  margin-right: 0.5rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: opacity 0.4s ease;
+}
+
+.price.fade-out {
+  opacity: 0;
+}
+
+.pricing-toggle {
+  text-align: center;
+}
+
+.pricing-toggle button {
+  background-color: #10b981;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pricing-toggle button:hover {
+  background-color: #0e9e74;
+}
+
+/* ===========================
+   ANIMATIONS
+   =========================== */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,404 @@
+/* ===========================
+   NAVBAR STYLES
+   =========================== */
+
+.navbar-container {
+  background-color: #101010;
+  margin: 8px 8px 0 8px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ===========================
+   NAVBAR LEFT SECTION
+   =========================== */
+
+.navbar-container .left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 45%;
+}
+
+.navbar-container .left img {
+  height: 28px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+[alt="Spotify"] {
+  height: 45px !important;
+}
+
+.navbar-container .left img:hover:not([alt="Spotify"]) {
+  transform: scale(1.1);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.navbar-container input[type="text"] {
+  background-color: #242424;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  color: white;
+  width: 300px;
+}
+
+/* ===========================
+   NAVBAR RIGHT SECTION
+   =========================== */
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-container .right {
+  width: fit-content !important;
+}
+
+.right-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbar-container .right a,
+.navbar-container .right button {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: color 0.5s ease;
+  font-weight: bold;
+}
+
+.navbar-container .right a:hover {
+  color: #1db954;
+}
+
+.navbar-container .right button {
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-container .right button:hover {
+  background-color: #1db954;
+  color: white;
+}
+
+/* ===========================
+   USER AREA
+   =========================== */
+
+.user {
+  position: relative;
+  display: inline-block;
+  gap: 10px;
+  font-weight: bold;
+  z-index: 10000;
+}
+
+#user-area {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 10000;
+}
+
+.user:hover {
+  cursor: pointer;
+  scale: 1.02;
+  transition: all 0.7s ease-in-out;
+}
+
+.user span {
+  color: #1db954dc;
+  font-size: 19px;
+  font-weight: 300;
+  font-family: cursive;
+}
+
+#user-icon {
+  font-size: 35px;
+  color: #1db954;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* ===========================
+   USER LOGOUT DROPDOWN
+   =========================== */
+
+.logout {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  padding: 0px 7px;
+  background-color: #1e1e1e;
+  border-radius: 13px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: none;
+  min-width: 150px;
+  white-space: nowrap;
+}
+
+.user:hover .logout,
+.logout:hover {
+  display: block;
+}
+
+.user::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  height: 12px;
+  background: transparent;
+  z-index: 199;
+}
+
+.logout::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 18px;
+  border-width: 0 7px 10px 7px;
+  border-style: solid;
+  border-color: transparent transparent #1e1e1e transparent;
+}
+
+.logout ul {
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+}
+
+.logout ul li {
+  padding: 10px 16px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: background 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.logout ul li:hover {
+  background-color: #2a2a2a;
+  color: #1db954;
+}
+
+#user-area:hover .logout,
+.logout:hover {
+  display: block;
+}
+
+/* ===========================
+   HAMBURGER MENU
+   =========================== */
+
+.hamburger-menu {
+  display: none;
+  position: relative;
+}
+
+.hamburger {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.hamburger:hover {
+  transform: scale(1.05);
+}
+
+.hamburger img {
+  width: 34px;
+  height: 34px;
+  transition: all 0.3s ease;
+}
+
+/* ===========================
+   DROPDOWN MENU
+   =========================== */
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 280px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  transform: translateY(0px) scale(1);
+  animation: slideDown 0.4s ease-in-out;
+  z-index: 1000;
+  overflow: hidden; /* Prevent content from going outside */
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(
+    135deg,
+    rgba(29, 185, 84, 0.1),
+    rgba(29, 185, 84, 0.05)
+  );
+}
+
+.menu-header h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.close-btn {
+  color: #b3b3b3;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.close-btn:hover {
+  color: #fff;
+  transform: rotate(180deg);
+}
+
+.menu-items {
+  padding: 8px 0;
+  overflow: hidden; /* Ensure menu items stay within bounds */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  color: #b3b3b3;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin: 0 8px; /* Add side margins */
+  border-radius: 12px; /* Round corners for hover effect */
+  animation: slideDown 0.6s ease-in-out;
+}
+
+.menu-item:hover {
+  color: #fff;
+  background: rgba(29, 185, 84, 0.15);
+  /* Remove translateX to keep items within bounds */
+  transform: scale(1.02); /* Subtle scale instead of translation */
+}
+
+.menu-item i {
+  font-size: 16px;
+  margin-right: 16px;
+  width: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover i {
+  color: #1ed760;
+  transform: scale(1.1);
+}
+
+.menu-item span {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 8px 16px; /* Adjust margins to match menu items */
+}
+
+.login-btn {
+  background: linear-gradient(135deg, #1db954, #1ed760);
+  margin: 8px 16px;
+  border-radius: 25px;
+  color: #fff !important;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(29, 185, 84, 0.3);
+}
+
+.login-btn:hover {
+  transform: scale(1.05); /* Use scale instead of translateY to stay within bounds */
+  box-shadow: 0 6px 20px rgba(29, 185, 84, 0.4);
+  background: linear-gradient(135deg, #1ed760, #1db954);
+}
+
+.user-menu-area {
+  transition: all 0.3s ease;
+  margin: 0 8px; /* Add margins to user area */
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  background: rgba(29, 185, 84, 0.1);
+  border-radius: 12px;
+  margin: 8px 0; /* Remove left/right margins */
+}
+
+.user-info i {
+  font-size: 20px;
+  color: #1ed760;
+  margin-right: 12px;
+}
+
+.user-info span {
+  color: #fff;
+  font-weight: 600;
+}
+
+.logout-item {
+  color: #ff6b6b !important;
+}
+
+.logout-item:hover {
+  background: rgba(255, 107, 107, 0.15);
+  transform: scale(1.02); /* Consistent with other menu items */
+}
+
+.logout-item:hover i {
+  color: #ff8e8e;
+}
+
+.logout-item::before {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 107, 107, 0.2),
+    rgba(255, 107, 107, 0.1)
+  );
+}

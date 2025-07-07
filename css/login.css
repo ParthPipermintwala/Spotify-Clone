@@ -1,0 +1,250 @@
+/* ===========================
+   LOGIN PAGE STYLES
+   =========================== */
+
+* {
+  box-sizing: border-box;
+  font-family: "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 2px solid #1db954;
+  border-radius: 25px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.home-icon {
+  fill: #1db954;
+  transition: fill 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #1db954;
+}
+
+.home-button:hover .home-icon {
+  fill: #000;
+}
+
+.home-button:hover .home-label {
+  color: #000;
+}
+
+.container {
+  background-color: #121212;
+  padding: 48px 36px;
+  border-radius: 12px;
+  margin: 70px 15px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.social-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  cursor: pointer;
+  border: none;
+}
+
+.google {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.facebook {
+  background-color: #1877f2;
+  color: #ffffff;
+}
+
+.divider {
+  text-align: center;
+  color: #777;
+  margin: 20px 0;
+  font-size: 13px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+label {
+  font-size: 13px;
+  color: #b3b3b3;
+  margin-bottom: 6px;
+  display: block;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  background-color: #181818 !important;
+  color: #ffffff !important;
+  border: 1px solid #333;
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 12px 40px 12px 12px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 36px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.checkbox-group input {
+  margin-right: 8px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #1db954;
+  color: #000000;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #1ed760;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.signup-text a {
+  color: #1db954;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  font-size: 12px;
+  color: #ff5c5c;
+  margin-top: 4px;
+}
+
+.not-exist .popup-content h2 {
+  color: rgba(255, 0, 0, 0.753);
+}
+
+.not-exist .popup-content .back-link {
+  color: #f72d2dc6;
+}
+
+.not-exist .close:hover {
+  color: red;
+}
+
+/* ===========================
+   ANIMATIONS
+   =========================== */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animations */
+.container {
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0; /* start invisible */
+}
+
+.social-btn,
+form {
+  animation: slideIn 1s ease-out forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+/* Smooth hover scale */
+button:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s ease;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+

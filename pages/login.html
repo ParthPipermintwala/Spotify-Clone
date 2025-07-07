@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/popup.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <a href="../index.html" class="home-button">
+      <svg
+        class="home-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="#1DB954"
+      >
+        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+      </svg>
+    </a>
+    <div class="container">
+      <h1>Log in to Spotify</h1>
+
+      <form id="loginForm" novalidate>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="you@example.com"
+            required
+          />
+          <div class="error" id="emailError"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="••••••••"
+            required
+          />
+          <span class="toggle-password" onclick="togglePassword()">👁️</span>
+          <div class="error" id="passwordError"></div>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="rememberMe" />
+          <label for="rememberMe">Remember me</label>
+        </div>
+
+        <button type="submit" class="login-btn">Log In</button>
+      </form>
+      <div class="divider">or</div>
+      <button
+        class="social-btn google"
+        onclick="window.open('https://accounts.google.com/', '_blank')"
+      >
+        Continue with Google
+      </button>
+      <button
+        class="social-btn facebook"
+        onclick="window.open('https://facebook.com/login', '_blank')"
+      >
+        Continue with Facebook
+      </button>
+      <div class="signup-text">
+        Don't have an account? <a href="signup.html">Sign up for Spotify</a>
+      </div>
+    </div>
+
+    <!-- popup -->
+    <div class="popup hidden">
+      <i class="fas fa-times close"></i>
+      <div class="popup-content">
+        <h2>
+          Welcome Back!
+          <i class="fas fa-check-circle success-icon"></i>
+        </h2>
+
+        <p>
+          You have successfully logged in to Spotify! Ready to discover amazing
+          music?
+        </p>
+
+        <!-- Floating Music Notes -->
+        <div class="floating-notes">
+          <span>🎵</span>
+          <span>🎶</span>
+          <span>🎵</span>
+        </div>
+        <a href="../index.html" class="back-link"
+          ><i class="fas fa-arrow-left" class="back-link"></i> Back to Home</a
+        >
+      </div>
+    </div>
+
+    <!-- popup -->
+    <div class="popup not-exist hidden">
+      <i class="fas fa-times close"></i>
+      <div class="popup-content">
+        <h2>Account Not Found!</h2>
+        <p>
+          ❌ No account found with this email or password. Please check your
+          credentials or sign up for a new account.
+        </p>
+
+        <!-- Floating Music Notes -->
+        <div class="floating-notes">
+          <span>🎵</span>
+          <span>🎶</span>
+          <span>🎵</span>
+        </div>
+        <a href="signup.html" class="back-link">
+          <i class="fas fa-arrow-left back-link"></i> Sign Up for Spotify
+        </a>
+      </div>
+    </div>
+
+    <script src="../js/auth-login.js"></script>
+  </body>
+</html>

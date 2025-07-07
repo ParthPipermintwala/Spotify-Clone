@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Premium - Spotify Clone</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/32/174/174872.png">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/180/174/174872.png">
+    
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/popup.css">
+    <link rel="stylesheet" href="../css/premium.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <script src="../js/popup.js" defer></script>
+  </head>
+  <body>
+    <div class="promo-container">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg"
+        alt="Spotify Logo"
+        class="logo"
+      />
+      <h1>Go Premium Today</h1>
+      <p>
+        Enjoy unlimited music, ad-free listening, and offline playback with
+        Spotify Premium.
+      </p>
+      <div class="flex">
+        <div class="Feature">
+          <i class="fas fa-music"></i>
+          <p>No ads — just music</p>
+        </div>
+        <div class="Feature">
+          <i class="fas fa-cloud-download-alt"></i>
+          <p>Download and listen offline</p>
+        </div>
+        <div class="Feature">
+          <i class="fas fa-forward"></i>
+          <p>Unlimited skips</p>
+        </div>
+        <div class="Feature">
+          <i class="fas fa-headphones-alt"></i>
+          <p>High-quality audio</p>
+        </div>
+      </div>
+
+      <div>
+        <p class="payment-text">Choose a payment option:</p>
+        <div class="flex payment">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+            alt="PayPal"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg"
+            alt="Visa"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg"
+            alt="Mastercard"
+          />
+        </div>
+      </div>
+
+      <button class="btn">Activate Premium</button>
+      <a href="../index.html" class="back-link"
+        ><i class="fas fa-arrow-left home"></i> Back to Home</a
+      >
+    </div>
+
+    <!-- popup -->
+    <div class="popup hidden">
+      <i class="fas fa-times close"></i>
+      <div class="popup-content">
+        <h2>
+          Premium Activated &nbsp;
+          <i class="fas fa-check-circle success-icon"></i>
+        </h2>
+
+        <p>Thank you for subscribing to Spotify Premium.</p>
+        <p>Enjoy your music without interruptions!</p>
+
+        <!-- Floating Music Notes -->
+        <div class="floating-notes">
+          <span>🎵</span>
+          <span>🎶</span>
+          <span>🎵</span>
+        </div>
+        <a href="../index.html" class="back-link"
+          ><i class="fas fa-arrow-left" class="back-link"></i> Back to Home</a
+        >
+      </div>
+    </div>
+  
+  </body>
+</html>
