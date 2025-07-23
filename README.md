@@ -72,11 +72,11 @@ spotify-clone/
 │       ├── premium.html
 │       ├── support.html
 │       ├── premium-plans.html
+│       ├── song-details.html   # Song details page
 │       └── ...           # More HTML files
 ├── public/
 │   └── favicon.svg       # Site favicon
 ├── index.html            # Main homepage
-├── song-details.html     # Song details page
 └── README.md             # Project documentation
 ```
 
