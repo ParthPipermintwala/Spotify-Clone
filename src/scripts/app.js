@@ -143,7 +143,7 @@ async function loadlibrary(song) {
 // Function to load song details into main content area
 async function loadSongDetails(song) {
   try {
-    const response = await fetch("song-details.html");
+    const response = await fetch("src/pages/song-details.html");
     let htmlContent = await response.text();
 
     // Replace placeholders with actual song data
