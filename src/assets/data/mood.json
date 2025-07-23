@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Angry",
+        "image": "src/assets/mood/angery.jpg"
+    },
+    {
+        "name": "Bright",
+        "image": "src/assets/mood/bright.jpg"
+    },
+    {
+        "name": "Chill",
+        "image": "src/assets/mood/chill.jpg"
+    },
+    {
+        "name": "Dark",
+        "image": "src/assets/mood/dark.jpg"
+    },
+    {
+        "name": "Funky",
+        "image": "src/assets/mood/funky.jpg"
+    },
+    {
+        "name": "Love",
+        "image": "src/assets/mood/love.jpg"
+    },
+    {
+        "name": "Uplifting",
+        "image": "src/assets/mood/uplifting.jpg"
+    },
+    {
+        "name": "Sleepy",
+        "image": "src/assets/mood/sleep.jpg"
+    },
+    {
+        "name": "Happy",
+        "image": "src/assets/mood/happy.jpg"
+    },
+    {
+        "name": "Hindi",
+        "image": "src/assets/mood/Hindi.jpg"
+    },
+    {
+        "name": "Live Events",
+        "image": "src/assets/mood/Live Events.jpg"
+    },
+    {
+        "name": "Music",
+        "image": "src/assets/mood/music.jpg"
+    },
+    {
+        "name": "New Releases",
+        "image": "src/assets/mood/New Releases.jpg"
+    },
+    {
+        "name": "Podcasts",
+        "image": "src/assets/mood/Podcasts.jpg"
+    },
+    {
+        "name": "Rain & Monsoon",
+        "image": "src/assets/mood/Rain & Monsoon.jpg"
+    }
+]

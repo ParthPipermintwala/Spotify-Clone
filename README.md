@@ -1,8 +1,7 @@
-
 # 🎵 Spotify Clone - Music Streaming Web App
 
 <div align="center">
-  <img src="nav_icon/Spotify_logo_with_text.svg" alt="Spotify Clone Logo" width="200" height="60">
+  <img src="src/assets/nav_icon/Spotify_logo_with_text.svg" alt="Spotify Clone Logo" width="200" height="60">
   
   ### 🎧 A Modern Music Streaming Experience
   
@@ -40,40 +39,45 @@ A fully functional **Spotify Clone** built with modern web technologies, featuri
 
 ## 🗂️ **Project Structure**
 
+
 ```
 spotify-clone/
-├── 📁 css/                    # Stylesheets
-│   ├── base.css               # Base styles and typography
-│   ├── navbar.css             # Navigation bar styles
-│   ├── layout.css             # Main layout and grid
-│   ├── music-player.css       # Audio player component
-│   ├── responsive.css         # Mobile and tablet styles
-│   ├── footer.css             # Footer component
-│   ├── popup.css              # Modal and popup styles
-│   └── [page-specific].css    # Individual page styles
-├── 📁 js/                     # JavaScript files
-│   ├── app.js                 # Main application logic
-│   ├── auth-login.js          # Login functionality
-│   ├── auth-signup.js         # Registration functionality
-│   ├── popup.js               # Modal and popup handlers
-│   └── [feature-specific].js  # Feature modules
-├── 📁 data/                   # JSON data files
-│   ├── song.json              # Song library and metadata
-│   ├── artist.json            # Artist information
-│   └── mood.json              # Mood categories
-├── 📁 songs/                  # Audio files
-├── 📁 cover/                  # Album artwork
-├── 📁 artist/                 # Artist images
-├── 📁 mood/                   # Mood category images
-├── 📁 pages/                  # HTML pages
-│   ├── login.html             # User login page
-│   ├── signup.html            # User registration
-│   ├── premium.html           # Premium subscription
-│   ├── support.html           # Customer support
-│   └── not-found.html         # 404 error page
-├── index.html                 # Main homepage
-├── song-details.html          # Individual song view
-└── README.md                  # Project documentation
+├── src/
+│   ├── styles/           # All CSS stylesheets for layout, components, and pages
+│   │   ├── base.css      # Base styles and typography
+│   │   ├── navbar.css    # Navigation bar styles
+│   │   ├── layout.css    # Main layout and grid
+│   │   ├── music-player.css # Audio player styles
+│   │   ├── responsive.css   # Responsive/mobile styles
+│   │   ├── footer.css    # Footer styles
+│   │   ├── popup.css     # Popup/modal styles
+│   │   └── ...           # More CSS files
+│   ├── scripts/          # All JavaScript files for app logic and features
+│   │   ├── app.js        # Main application logic
+│   │   ├── auth-login.js # Login functionality
+│   │   ├── auth-signup.js# Signup functionality
+│   │   ├── popup.js      # Popup/modal logic
+│   │   └── ...           # More JS files
+│   ├── assets/           # All static assets (media, data, icons)
+│   │   ├── data/         # JSON data files (song.json, artist.json, mood.json)
+│   │   ├── songs/        # Audio/music files
+│   │   ├── cover/        # Album cover images
+│   │   ├── artist/       # Artist images
+│   │   ├── mood/         # Mood/category images
+│   │   ├── nav_icon/     # Navigation icons
+│   │   └── svg/          # SVG icons
+│   └── pages/            # All HTML pages (auth, premium, support, etc.)
+│       ├── login.html
+│       ├── signup.html
+│       ├── premium.html
+│       ├── support.html
+│       ├── premium-plans.html
+│       └── ...           # More HTML files
+├── public/
+│   └── favicon.svg       # Site favicon
+├── index.html            # Main homepage
+├── song-details.html     # Song details page
+└── README.md             # Project documentation
 ```
 
 ---
@@ -175,9 +179,4 @@ spotify-clone/
   <p>Star ⭐ this repository if you found it helpful!</p>
   
   **[⬆ Back to Top](#-spotify-clone---music-streaming-web-app)**
-</div>
-
----
-
-*Last Updated: July 8, 2025*
 

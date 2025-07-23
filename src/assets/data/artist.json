@@ -1,0 +1,70 @@
+[
+  {
+    "name": "A.R. Rahaman",
+    "image": "src/assets/artist/A.R. Rahaman.jpg"
+  },
+  {
+    "name": "Amit Trivedi",
+    "image": "src/assets/artist/Amit Trivedi.jpg"
+  },
+  {
+    "name": "Arijit Singh",
+    "image": "src/assets/artist/arjit singh.jpg"
+  },
+  {
+    "name": "Badshah",
+    "image": "src/assets/artist/Badshah.jpg"
+  },
+  {
+    "name": "DIVINE",
+    "image": "src/assets/artist/DIVINE.jpg"
+  },
+  {
+    "name": "Ed Sheeran",
+    "image": "src/assets/artist/ed sheeran.jpg"
+  },
+  {
+    "name": "KK",
+    "image": "src/assets/artist/kk.jpg"
+  },
+  {
+    "name": "KR$NA",
+    "image": "src/assets/artist/KR$NA.jpg"
+  },
+  {
+    "name": "Neha",
+    "image": "src/assets/artist/neha.jpg"
+  },
+  {
+    "name": "Paradox",
+    "image": "src/assets/artist/Paradox.jpg"
+  },
+  {
+    "name": "Shreya Ghoshal",
+    "image": "src/assets/artist/Shreya Ghoshal.jpg"
+  },
+  {
+    "name": "Sonu Nigam",
+    "image": "src/assets/artist/sonu nigam.jpg"
+  },
+  {
+    "name": "Tulsi Kumar",
+    "image": "src/assets/artist/tulsi kumar.jpg"
+  },
+  {
+    "name": "Udit Narayan",
+    "image": "src/assets/artist/udit narayan.jpg"
+  },
+  {
+    "name": "Yo Yo Honey Singh",
+    "image": "src/assets/artist/yo yo.jpg"
+  },
+  {
+    "name": "Dan Reynolds",
+    "image": "src/assets/artist/Dan Reynolds.webp"
+  },
+  {
+    "name": "Wayne Sermon",
+    "image": "src/assets/artist/Wayne Sermon.jpg"
+  }
+]

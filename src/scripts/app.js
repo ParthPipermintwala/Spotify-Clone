@@ -34,7 +34,7 @@ function shuffleArray(array) {
 // artist card
 async function loadArtistCards() {
   try {
-    const response = await fetch("data/artist.json");
+    const response = await fetch("src/assets/data/artist.json");
     const data = await response.json();
     shuffleArray(data);
 
@@ -65,7 +65,7 @@ loadArtistCards().then((data) => {
 // mood card
 async function moodcard() {
   try {
-    const response = await fetch("data/mood.json");
+    const response = await fetch("src/assets/data/mood.json");
     const data = await response.json();
     shuffleArray(data);
 
@@ -92,7 +92,7 @@ moodcard();
 // Load and display song cards
 async function loadSongs() {
   try {
-    const response = await fetch("data/song.json");
+    const response = await fetch("src/assets/data/song.json");
     const data = await response.json();
     shuffleArray(data);
 
@@ -172,7 +172,7 @@ async function loadSongDetails(song) {
 async function populateArtistInfo(song) {
   try {
     // Fetch artist data
-    const response = await fetch("data/artist.json");
+    const response = await fetch("src/assets/data/artist.json");
     const artistData = await response.json();
 
     // Find the artist(s) for this song
@@ -390,7 +390,7 @@ const playmusic = (song) => {
     loadSongDetails(songdata[nextIndex]).then(() => {
       document.querySelector(".play-button1").click();
     });
-    loadlibrary(songdata[nextIndex]) 
+    loadlibrary(songdata[nextIndex]);
   });
   document.querySelector("#previous").addEventListener("click", () => {
     let currentIndex = songdata.findIndex(

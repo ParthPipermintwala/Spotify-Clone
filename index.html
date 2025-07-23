@@ -6,7 +6,7 @@
     <title>Spotify Clone</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="public/favicon.svg" />
     <link
       rel="icon"
       type="image/png"
@@ -18,12 +18,12 @@
     />
 
     <!-- Organized CSS Structure -->
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/music-player.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="src/styles/base.css" />
+    <link rel="stylesheet" href="src/styles/navbar.css" />
+    <link rel="stylesheet" href="src/styles/layout.css" />
+    <link rel="stylesheet" href="src/styles/music-player.css" />
+    <link rel="stylesheet" href="src/styles/footer.css" />
+    <link rel="stylesheet" href="src/styles/responsive.css" />
     <!-- External Dependencies -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -48,17 +48,23 @@
       <!-- left -->
       <div class="left">
         <a href="index.html"
-          ><img src="./nav_icon/Spotify_logo_with_text.svg" alt="Spotify"
+          ><img
+            src="./src/assets/nav_icon/Spotify_logo_with_text.svg"
+            alt="Spotify"
         /></a>
         <a href="index.html"
           ><img
-            src="./nav_icon/home.png"
+            src="./src/assets/nav_icon/home.png"
             alt="Home"
             class="mobile"
             id="homeBtn"
         /></a>
         <div class="search">
-          <img src="./nav_icon/search--v1.png" alt="Search" class="mobile" />
+          <img
+            src="./src/assets/nav_icon/search--v1.png"
+            alt="Search"
+            class="mobile"
+          />
           <input
             type="text"
             placeholder="What do you want to play?"
@@ -71,14 +77,14 @@
       <!-- right -->
       <div class="right">
         <div class="right-menu">
-          <a href="pages/premium-plans.html">Premium</a>
-          <a href="pages/support.html">Support</a>
+          <a href="src/pages/premium-plans.html">Premium</a>
+          <a href="src/pages/support.html">Support</a>
           <a href="https://www.spotify.com/in-en/download/windows/">Download</a>
           &nbsp;
           <span class="navbar-divider">|</span>
           <a href="https://open.spotify.com/download">Install App</a>
-          <a href="pages/signup.html" id="signup" class="">Sign up</a>
-          <a href="pages/login.html" id="login" class=""
+          <a href="src/pages/signup.html" id="signup" class="">Sign up</a>
+          <a href="src/pages/login.html" id="login" class=""
             ><button>Log in</button></a
           >
           <a href="#" class="user"
@@ -98,7 +104,10 @@
 
         <div class="hamburger-menu">
           <div class="hamburger" id="hamburger">
-            <img src="./nav_icon/icons8-hamburger-menu.svg" alt="Menu" />
+            <img
+              src="./src/assets/nav_icon/icons8-hamburger-menu.svg"
+              alt="Menu"
+            />
           </div>
 
           <!--dropdown menu -->
@@ -108,11 +117,11 @@
               <span class="close-btn" id="closeMenu">&times;</span>
             </div>
             <div class="menu-items">
-              <a href="pages/premium-plans.html" class="menu-item">
+              <a href="src/pages/premium-plans.html" class="menu-item">
                 <i class="fas fa-crown"></i>
                 <span>Premium</span>
               </a>
-              <a href="pages/support.html" class="menu-item">
+              <a href="src/pages/support.html" class="menu-item">
                 <i class="fas fa-headset"></i>
                 <span>Support</span>
               </a>
@@ -129,12 +138,12 @@
               </a>
               <div class="logopt">
                 <div class="menu-divider"></div>
-                <a href="pages/signup.html" class="menu-item" id="signup">
+                <a href="src/pages/signup.html" class="menu-item" id="signup">
                   <i class="fas fa-user-plus"></i>
                   <span>Sign up</span>
                 </a>
                 <a
-                  href="pages/login.html"
+                  href="src/pages/login.html"
                   class="menu-item login-btn"
                   id="login"
                 >
@@ -301,6 +310,6 @@
       </div>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src="src/scripts/app.js"></script>
   </body>
 </html>

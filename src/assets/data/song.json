@@ -4,9 +4,9 @@
     "artist": "Imagine Dragons",
     "duration": "2:53",
     "description": "Enemy is the lead single and fifth track for League of Legends",
-    "cover": "cover/ENEMY.png",
+    "cover": "src/assets/cover/ENEMY.png",
     "tag": "Top 10",
-    "audio": "songs/Imagine_Dragons_&_JID_-_Enemy_(Lyrics)_oh_the_misery_everybody_wants_to_be_my_enemy(128k).mp3",
+    "audio": "src/assets/songs/Imagine_Dragons_&_JID_-_Enemy_(Lyrics)_oh_the_misery_everybody_wants_to_be_my_enemy(128k).mp3",
     "lyrics": "(Look out for yourself)\nI wake up to the sounds of the silence that allows\nFor my mind to run around, with my ear up to the ground\nI'm searching to behold the stories that are told\nWhen my back is to the world that was smiling when I turned\n\nTell you: You're the greatest\nBut once you turn, they hate us\n\nOh, the misery\nEverybody wants to be my enemy\nSpare the sympathy\nEverybody wants to be my enemy-y-y-y-y\n(Look out for yourself)\nMy enemy-y-y-y-y\n(Look out for yourself)\nBut I'm ready\n\nYour words up on the wall as you'rе praying for my fall\nAnd the laughter in thе halls\nAnd the names that I've been called\nI stack it in my mind and I'm waiting for the time\nWhen I show you what it's like to be words spit in a mic\n\nTell you: You're the greatest\nBut once you turn, they hate us\n\nOh, the misery\nEverybody wants to be my enemy\nSpare the sympathy\nEverybody wants to be my enemy-y-y-y-y\n(Look out for yourself)\nMy enemy-y-y-y-y (yeah)\n(Look out for yourself)\n\nUh, look, okay\nI'm hoping that somebody pray for me\nI'm praying that somebody hope for me\nI'm staying where nobody 'posed to be\nP-p-posted, being a wreck of emotions\nReady to go whenever just let me know\nThe road is long so put the pedal into the floor\nThe enemy's on my trail, my energy unavailable\nI'ma tell 'em: Hasta luego\nThey wanna plot on my trot to the top\nI've been outta shape, thinking out the box I'm an astronaut\nI blasted off the planet rock to cause catastrophe\nAnd it matters more because I had it not\nHad I thought about wreaking havoc on an opposition\nKinda shockin' they wanted a static with precision I'm automatic quarterback\nI ain't talking sacking, pack it, pack it up, I don't panic\nBatter, batter up, who the baddest?\nIt don't matter 'cause we at ya throat\n\nEverybody wants to be my enemy\nSpare the sympathy\nEverybody wants to be my enemy\nOh, the misery\nEverybody wants to be my enemy\nSpare the sympathy\nEverybody wants to be my enemy\n\nPray it away, I swear\nI'll never be a saint, no way\nMy enemy\nPray it away, I swear\nI'll never be a saint\n(Look out for yourself)"
   },
   {
@@ -14,9 +14,9 @@
     "artist": "Imagine Dragons",
     "duration": "3:24",
     "description": "Believer thunders around a percussive backbeat and expressive vocals",
-    "cover": "cover/BELIVER.png",
+    "cover": "src/assets/cover/BELIVER.png",
     "tag": "HITS",
-    "audio": "songs/Imagine_Dragons_-_Believer_(Lyrics)(128k).mp3",
+    "audio": "src/assets/songs/Imagine_Dragons_-_Believer_(Lyrics)(128k).mp3",
     "lyrics": "First things first\nI'ma say all the words inside my head\nI'm fired up and tired of the way\nThat things have been, oh-ooh\nThe way that things have been, oh-ooh\nSecond things second\nDon't you tell me what you think that I could be\nI'm the one at the sail, I'm the master of my sea, oh-ooh\nThe master of my sea, oh-ooh\n\nI was broken from a young age\nTaking my sulking to the masses\nWriting my poems for the few\nThat look at me, took to me, shook to me, feeling me\nSinging from heartache from the pain\nTaking my message from the veins\nSpeaking my lesson from the brain\nSeeing the beauty through the\n\nPain!\nYou made me a, you made me a believer, believer\nPain!\nYou break me down and build me up, believer, believer\nPain!\nOh, let the bullets fly, oh, let them rain\nMy life, my love, my drive, it came from\nPain!\nYou made me a, you made me a believer, believer\n\nThird things third\nSend a prayer to the ones up above\nAll the hate that you've heard\nHas turned your spirit to a dove, oh-ooh\nYour spirit up above, oh-ooh\n\nI was choking in the crowd\nBuilding my rain up in the cloud\nFalling like ashes to the ground\nHoping my feelings, they would drown\nBut they never did, ever lived, ebbing and flowing\nInhibited, limited\nTill it broke open and rained down\nAnd rained down, like\n\nPain!\nYou made me a, you made me a believer, believer\nPain!\nYou break me down and build me up, believer, believer\nPain!\nOh, let the bullets fly, oh, let them rain\nMy life, my love, my drive, it came from\nPain!\nYou made me a, you made me a believer, believer\n\nLast things last\nBy the grace of the fire and the flames\nYou're the face of the future\nThe blood in my veins, oh-ooh\nThe blood in my veins, oh-ooh\nBut they never did, ever lived, ebbing and flowing\nInhibited, limited\nTill it broke open and rained down\nAnd rained down, like\n\nPain!\nYou made me a, you made me a believer, believer\nPain!\nYou break me down and build me up, believer, believer\nPain!\nOh, let the bullets fly, oh, let them rain\nMy life, my love, my drive, it came from\nPain!\nYou made me a, you made me a believer, believer"
   },
   {
@@ -24,9 +24,9 @@
     "artist": "Imagine Dragons",
     "duration": "2:45",
     "description": "Bones is the first single off Mercury — Act 2, released on March 11th, 2022.",
-    "cover": "cover/bones.png",
+    "cover": "src/assets/cover/bones.png",
     "tag": "NEW",
-    "audio": "songs/Imagine_Dragons_-_Bones_(Official_Music_Video)(128k).mp3",
+    "audio": "src/assets/songs/Imagine_Dragons_-_Bones_(Official_Music_Video)(128k).mp3",
     "lyrics": "Gimme, gimme, gimme some time to think\nI'm in the bathroom looking at me\nFace in the mirror is all I need\n(Ooh)\n\nWait until the reaper takes my life\nNever gonna get me out alive\nI(Look out for yourself)\nI wake up to the sounds of the silence that allows\nFor my mind to run around, with my ear up to the ground\nI'm searching to behold the stories that are told\nWhen my back is to the world that was smiling when I turned\n\nTell you: You're the greatest\nBut once you turn, they hate us\n\nOh, the misery\nEverybody wants to be my enemy\nSpare the sympathy\nEverybody wants to be my enemy-y-y-y-y\n(Look out for yourself)\nMy enemy-y-y-y-y\n(Look out for yourself)\nBut I'm ready\n\nYour words up on the wall as you'rе praying for my fall\nAnd the laughter in thе halls\nAnd the names that I've been called\nI stack it in my mind and I'm waiting for the time\nWhen I show you what it's like to be words spit in a mic\n\nTell you: You're the greatest\nBut once you turn, they hate us\n\nOh, the misery\nEverybody wants to be my enemy\nSpare the sympathy\nEverybody wants to be my enemy-y-y-y-y\n(Look out for yourself)\nMy enemy-y-y-y-y (yeah)\n(Look out for yourself)\n\nUh, look, okay\nI'm hoping that somebody pray for me\nI'm praying that somebody hope for me\nI'm staying where nobody 'posed to be\nP-p-posted, being a wreck of emotions\nReady to go whenever just let me know\nThe road is long so put the pedal into the floor\nThe enemy's on my trail, my energy unavailable\nI'ma tell 'em: Hasta luego\nThey wanna plot on my trot to the top\nI've been outta shape, thinking out the box I'm an astronaut\nI blasted off the planet rock to cause catastrophe\nAnd it matters more because I had it not\nHad I thought about wreaking havoc on an opposition\nKinda shockin' they wanted a static with precision I'm automatic quarterback\nI ain't talking sacking, pack it, pack it up, I don't panic\nBatter, batter up, who the baddest?\nIt don't matter 'cause we at ya throat\n\nEverybody wants to be my enemy\nSpare the sympathy\nEverybody wants to be my enemy\nOh, the misery\nEverybody wants to be my enemy\nSpare the sympathy\nEverybody wants to be my enemy\n\nPray it away, I swear\nI'll never be a saint, no way\nMy enemy\nPray it away, I swear\nI'll never be a saint\n(Look out for yourself)"
   },
   {
@@ -34,9 +34,9 @@
     "artist": "Imagine Dragons",
     "duration": "3:07",
     "description": "Thunder is the second single from Imagine Dragons' third album, following Believer.",
-    "cover": "cover/thunder.png",
+    "cover": "src/assets/cover/thunder.png",
     "tag": "Top 10",
-    "audio": "songs/Imagine_Dragons_-_Thunder(128k).mp3",
+    "audio": "src/assets/songs/Imagine_Dragons_-_Thunder(128k).mp3",
     "lyrics": "Just a young gun with a quick fuse\nI was uptight, wanna let loose\nI was dreaming of bigger things\nAnd wanna leave my own life behind\n\nNot a: Yes sir, not a follower\nFit the box, fit the mold\nHave a seat in the foyer, take a number\nI was lightning before the thunder\n\nThunder, thunder\nThunder, thun-, thunder\nThun-thun-thunder, thunder, thunder\nThunder, thun-, thunder\nThun-thun-thunder, thunder\n\nThunder, feel the thunder\nLightning then the thunder\nThunder, feel the thunder\nLightning then the thunder\nThunder, thunder\nThunder\n\nKids were laughing in my classes\nWhile I was scheming for the masses\nWho do you think you are?\nDreaming 'bout being a big star\n\nThey say you're basic, they say you're easy\nYou're always riding in the back seat\nNow I'm smiling from the stage while\nYou were clapping in the nosebleeds\n\nThunder\nThunder, thun-, thunder\nThun-thun-thunder, thunder, thunder\nThunder, thun-, thunder\nThun-thun-thunder, thunder\n\nThunder, feel the thunder\nLightning then the thunder\nThunder, feel the thunder\nLightning then the thunder, thunder\n\nThunder, feel the thunder\nLightning then the thunder, thunder\nThunder, feel the thunder\nLightning then the thunder, thunder\nThunder, feel the thunder\nLightning then the thunder, thunder\n\nThunder, feel the thunder (feel the)\nLightning then the thunder, thunder\nThunder, feel the thunder (feel the)\nLightning then the thunder, thunder\n\nThunder, thunder, thun-, thunder\nThun-thun-thunder, thunder\nThunder, thunder, thun-, thunder\nThun-thun-thunder, thunder\n\nThunder, thunder, thun-, thunder\nThun-thun-thunder, thunder\nThunder, thunder, thun-, thunder\nThun-thun-thunder, thunder"
   },
   {
@@ -44,9 +44,9 @@
     "artist": "Imagine Dragons",
     "duration": "2:46",
     "description": "Wake Up is the opening song for Imagine Dragons 6th LP LOOM.",
-    "cover": "cover/wake up.png",
+    "cover": "src/assets/cover/wake up.png",
     "tag": "Top 10",
-    "audio": "songs/Imagine_Dragons_-_Wake_Up.mp3",
+    "audio": "src/assets/songs/Imagine_Dragons_-_Wake_Up.mp3",
     "lyrics": "Wheels up when I'm off the ground, I'm\nNowhere, but I'm all around, I'm\nSpinnin', watch me now, I'm\nSpinnin' (spinnin'-nnin'-nnin')\n\nBig man when a wall's between us\nBig man gonna break to pieces\nSpinnin', can't believe it\nSpinnin' (spinnin'-nnin'-nnin')\n\nUh, turn around, turn it up\nTalk a bit, zip it up\nLock you in and close it up\nYeah\n\nEverybody's coming for you, wake up\nEverybody's coming, wake up\nBodies dropping everywhere, I'm waist up\nEverybody's coming, wake up\n\nSome days I'm a cha-chameleon\nSwitch it up when I crawl the ceilin'\nFlip it upside down, I'm wheelin'\nDealin' (dealin'-in'-in')\n\nEvery single one of you is comin' to my mind\nBring them all together, can you stack 'em in a line?\nJealousy is gonna be your failure, not mine\nWinnin' (winnin'-nnin'-nnin')\n\nUh, turn around, turn it up\nTalk a bit, zip it up\nLock you in and close it up (uh, uh, uh)\n\nOh, everybody's coming for you, wake up (wake up)\nEverybody's coming, wake up\nBodies dropping everywhere, I'm waist up (waist up)\nEverybody's coming, wake up\n\nEverybody's coming, wake up\n\nGot a case of the take or leave it\nGive an inch and I'm bound to seize it\nTake a chainsaw out and feed it\nRin-din-nin-nin (rin-din-nin-nin-nin-nin)\n\nCome alive when you don't believe it\nWrite me off and I'd love to read it\nSpit your words and I'll watch you eat it\nDiggin' (diggin'-in'-in')\n\nOh, everybody's coming for you, wake up (wake up)\nEverybody's coming, wake up (wake up, wake up)\nBodies dropping everywhere, I'm waist up (waist up)\nEverybody's coming, wake up\n\nEverybody's coming, wake up\n\nWhat are you to do\nWhen they come for you?\nWinners hate to lose"
   },
   {
@@ -54,9 +54,9 @@
     "artist": "Yo Yo Honey Singh",
     "duration": "4:22",
     "description": "MILLIONAIRE is first song from the 3rd studio album of the artist YO YO HONEY SINGH.",
-    "cover": "cover/mi.png",
+    "cover": "src/assets/cover/mi.png",
     "tag": "HITS",
-    "audio": "songs/Millionaire - Yo Yo Honey Singh(MixJio.In).mp3",
+    "audio": "src/assets/songs/Millionaire - Yo Yo Honey Singh(MixJio.In).mp3",
     "lyrics": "Yeah Aan!\n\nItaly Di Maid, Fat Cigars\nPull Up Like A Sheikh\nChauffeured Cars, Tailored Suits\nLakhan De Pair\n\nI’m Mother F*cin’ Millionaire!\n\nForeign Di Deals, Mote Dinars\nI Got Dirty Money, Super Powers\nMunda Aa Rare Karda Ni Care\nI’m Mother F*cin’ Millionaire!\n\nItaly Di Maid, Fat Cigars\nPull Up Like A Sheikh\nChauffeured Cars, Tailored Suits\nLakhan De Pair\n\nI’m Mother F*cin’ Millionaire!\n\nMunda Top Da Brand\nAgg Lagi Hui Stocks Nu\nRedbull Naal Glassi Khamb Lagge\nMere Thoughts Nu…\n\n10 Saal Ho Gaye Ajj Vi\nOhna De Zehan Ch\nMain Rent Free…\n\nPole Dance Roz Main Karaunda\nBillo Unglan Te Ops Nu\nHuhahaha\n\nOh Chaunde Reply\nMunda Dinda Nahio Shit Koyi\nMere Naal Muqable Ch\nHunda Nahio Fit Koyi\n\nOh Ajj Vi Ne Label’an Di\nRehnde Jhoot Chatde\nTaan Vi Mere Zikr Bina\nNa Geet Hit Koyi\n\nHaan Fan Base Mera Jivein Cult Koyi\nGhodiyan Banaunde Bole Galt Koyi\nBina Gallon Nahio OG OG Hundi\nNeet’an Naal Geet’an Da Result Ohi\n\nOnly Boss Cutz, Unche Udaars\nKaddi Spaceship, Trip To Mars\nMunda Top Brand Mehenge Ne Share\nFlying Kisses On From Everywhere\n\nItaly Di Maid, Fat Cigars\nPull Up Like A Sheikh\nChauffeured Cars, Tailored Suits\nLakhan De Pair\n\nI’m Mother F*cin’ Millionaire!\n\nForeign Di Deals, Mote Dinars\nI Got Dirty Money, Super Powers\nMunda Aa Rare Karda Ni Care\nI’m Mother F*cin’ Millionaire!\n\nYeah Yeah Aan Aan…\n\nLife Saddi Rich Rich Tornado Rex\nWhen Oh Kehnde Money Evil\nCheck Your Facts Man\n\nOh Maarde Ne Rehnde Chhala\nJehde Networth Te\nOhna Annually Methon\nLaike Jaande Taxmann\n\nAlpha Te Sigma Da\nMunda Billo Mel Nai\nOn A New Level\nIk Minute Di Vi Vail Nai\n\nI Don’t Know Where\nJe Geet Koyi Sittda\nMain Badeyan Di Hype Nu\nHaan Karda Derail Ni\n\nOnly Thick Chicks On Radar\nFly Karaan Private Sochan Ton Paar\nKaun Jaane Vair Kinne Affair\nI’m Mother F*cin’ Millionaire\n\nItaly Di Maid, Fat Cigars\nPull Up Like A Sheikh\nChauffeured Cars, Tailored Suits\nLakhan De Pair\n\nI’m Mother F*cin’ Millionaire!\n\nForeign Di Deals, Mote Dinars\nI Got Dirty Money, Super Powers\nMunda Aa Rare Karda Ni Care\nI’m Mother F*cin’ Millionaire!\n\nItaly Di Maid, Fat Cigars\nPull Up Like A Sheikh\nChauffeured Cars, Tailored Suits\nLakhan De Pair\n\nI’m Mother F*cin’ Millionaire!\n\nForeign Di Deals, Mote Dinars\nI Got Dirty Money, Super Powers\nMunda Aa Rare Karda Ni Care\nI’m Mother F*cin’ Millionaire!"
   },
   {
@@ -64,9 +64,9 @@
     "artist": "Kushagra",
     "duration": "3:51",
     "description": "A soulful romantic track from the Kushagra Album. Finding Her is a Hindi Playful song.",
-    "cover": "cover/finding (1).png",
+    "cover": "src/assets/cover/finding (1).png",
     "tag": "Top 10",
-    "audio": "songs/Finding Her - InstaSong.In.mp3",
+    "audio": "src/assets/songs/Finding Her - InstaSong.In.mp3",
     "lyrics": "Jaana Tu Aata Nahi\nSapnon Se Jata Nahi\nMil Jaaye Kya Hi Baat Thi\nKamil Ho Jaata Wahin\n\nJaana Mere Sawalon Ka Manzar Tu\nHaan Main Sukha Sa Sara Samandar Tu\nHaan Gulabi Si Surkhi Jo Dikhti Thi\nPhir Se Dikh Jaye Toh Jee Bhar Ke\nSaah Bhar Loon\n\nKaati Kitni Thi Raate Nai Soya Main\nTujhko Kitna Bulaya Phir Roya Main\nTeri Saari Woh Baatein Kyun Sone Nahi Deti\nSataye Mujhe Haan Phir Khoya Main\n\nTu Aata Nahi\nSapnon Se Jata Nahi\nMil Jaaye Kya Hi Baat Thi\nKamil Ho Jaata Wahin\n\nJo Bhi Ho Raaz Hai Tera\nMujhko Batata Nahi\nMil Jaaye Kya Hi Baat Thi\nKamil Ho Jata Wahin\n\nSambhal Ke Rakha Woh Phool Mera Tu\nMeri Shayari Me Zaroor Raha Tu\nJo Aakhon Mein Pyari Si Duniya Basayi\nWoh Duniya Bhi Tha Tu\nWoh Lamha Bhi Tha Tu\n\nHaan Lagte Hain Mujhko Yeh Kisse Satane\nDeta Na Dil Mera Tujhko Bhulane\nAdhoore Se Vaade Adhoori Si Raatein\nAb Hisse Mein Dakhil Mere Bas Woh Yaadein\n\nRehna Tha Banke Humdum Tera\nAise Jana Hi Tha Phr Tu Kyun Thehra\nAb Na Maane Mera Dil Ke Na Tere Kabil\nThi Ek Arzoo Ki Main Kehta Raha Par\n\nTu Aata Nai Sapnon Se Jaata Nai\nMil Jaaye Kya Hi Baat Thi\nKamil Ho Jaata Wahin\n\nJo Bhi Ho Raaz Hai Tera\nMujhko Batata Nahi\nMil Jaaye Kya Hi Baat Thi\nKamil Ho Jata Wahin"
   },
   {
@@ -74,9 +74,9 @@
     "artist": "Diljit Dosanjh",
     "duration": "3:51",
     "description": "Lover MP3 Song by Diljit Dosanjh from the Punjabi album MoonChild",
-    "cover": "cover/lover.png",
+    "cover": "src/assets/cover/lover.png",
     "tag": "NEW",
-    "audio": "songs/Diljit_Dosanjh__LOVER__Official_Music_Video__Intense___Raj_Ranjodh___MoonChild_Era(128k).mp3",
+    "audio": "src/assets/songs/Diljit_Dosanjh__LOVER__Official_Music_Video__Intense___Raj_Ranjodh___MoonChild_Era(128k).mp3",
     "lyrics": "Kol Ae Tu Yeah\nSambh Le Dil Mere Nu Yeah\nDass De Doori Ae Kyun Yeah\nMeriyan Ankhan De Samne Reh\n\nTere Bagair Yeah\nLagdi Duniya Zehar Yeah\nJivein Laiju Koyi Gair Yeah\nPaige Kaiyan Naal Vair Yeah\n\nAnkh Laawan Mach Jaawein\nPoori Ae Tu Fire\nNi Tu Meri Ho Jaawein\nAe Hi Hai Desire\n\nAnkh Laawa Mach Jaawein\nPoori Ae Tu Fire\nNi Tu Meri Ho Jaawein\nBaby Baby\n\nTera Ni Main Tera Ni Main Lover\nAnkhan Da Dangeya\nHona Ni Main Hona Ni Main Recover\nTainu Jo Takkeya\n\nReha Ni Main Reha Ni Main Sober\nTera Mere Dil Te Ae\nRooh Te Ae Asar\n\nTere Kole Howan Jadon\nChup Vi Chup Na Rehndi Ae\nTaare Tuttde Ne Jadon\nZulf Laate Khaindi Aa\n\nTurrdi Aa Kithe Kudi\nPani Wangu Behndi Ae\nBaahan Ch Na Howe\nTu Taan Jaan Ch Jaan Naal Paindi Ae\n\nTurri Jivein Koyi Nasha\nPeena Aa Main Day Night\nThoda Jeha Trippy Aan\nPar Tu Hai Taan It’s Alright\nBaby Baby\n\nTera Ni Main Tera Ni Main Lover\nAnkhan Da Dangeya\nHona Ni Main Hona Ni Main Recover\nTainu Jo Takkeya\n\nReha Ni Main Reha Ni Main Sober\nTera Mere Dil Te Ae\nRooh Te Ae Asar\nBaby Baby\n\nChaliye Kitte Door Kitte Ni\n2 Seater Vich Tu Te Main\nPaisa Paani Wang Laa Doon\nKi Saa Chaidi Naam Te Le\n\nDuniya Main Kardun Teri\nBas Tu Meri Hoke Reh\nSaari Raat Na Sowan Sachi\nKudiye Mere Kol Ta Beh\n\nRakhdi Ae Raj De Tu\nModde Utte Sar Ni\nBullan Ton Na Jaawe Smile\nKini Kini Chirr Ni\n\nRakhdi Ae Raj De Tu\nModde Utte Sar Ni\nBullan Ton Na Jaawe Smile\nKini Kini Chirr Ni\n\nTera Ni Main Tera Ni Main Lover\nAnkhan Da Dangeya\nHona Ni Main Hona Ni Main Recover\nTainu Jo Takkeya\n\nReha Ni Main Reha Ni Main Sober\nTera Mere Dil Te Ae\nRooh Te Ae Asar\nBaby Baby\n\nTera Ni Main Tera Ni Main Lover\nBaby Baby\nTera Ni Main Tera Ni Main Lover\nBaby Baby\nTera Ni Main Tera Ni Main Lover\nBaby Baby\nTera Ni Main Tera Ni Main Lover"
   },
   {
@@ -84,9 +84,9 @@
     "artist": "Lauv",
     "duration": "3:17",
     "description": "l Like Me Better is a song recorded and produced by American singer Lauv.",
-    "cover": "cover/luv.png",
+    "cover": "src/assets/cover/luv.png",
     "tag": "Top 10",
-    "audio": "songs/Lauv_-_I_Like_Me_Better_[Official_Video](128k).m4a",
+    "audio": "src/assets/songs/Lauv_-_I_Like_Me_Better_[Official_Video](128k).m4a",
     "lyrics": "To be young and in love in New York City (New York City)\nTo not know who I am but still know that I’m good long as you’re here with me\nTo be drunk and in love in New York City\nMidnight into morning coffee\nBurning through the hours talking\n\nDamn, I like me better when I’m with you\nI like me better when I’m with you\nI knew from the first time, I’d stay for a long time ’cause\nI like me better when\nI like me better when I’m with you\n\nI don’t know what it is but I got that feeling (got that feeling)\nWaking up in this bed next to you swear the room\nYeah, it got no ceiling\nIf we lay, let the day just pass us by\nI might get to too much talking\nI might have to tell you something\n\nDamn, I like me better when I’m with you\nI like me better when I’m with you\nI knew from the first time, I’d stay for a long time ’cause\nI like me better when\nI like me better when I’m with you\n\nStay awhile, stay awhile\nStay here with me\nStay awhile, stay awhile, oh\nStay awhile, stay awhile\nStay here with me\nLay here with me\n\nI like me better when I’m with you (yes, I do, yes, I do, babe)\nI like me better when I’m with you (ooh, no)\nI knew from the first time, I’d stay for a long time ’cause\nI like me better when\nI like me better when I’m with you\n\nBetter when, I like me better when I’m with you…"
   },
   {
@@ -94,9 +94,9 @@
     "artist": "Anirudh Ravichander",
     "duration": "3:27",
     "description": "Anirudh Ravichander is bringing his electrifying Hukum World Tour to Bengaluru!",
-    "cover": "cover/hukum.png",
+    "cover": "src/assets/cover/hukum.png",
     "tag": "NEW",
-    "audio": "songs/JAILER_-_Hukum_Lyric_Video___Superstar_Rajinikanth___Sun_Pictures___Anirudh___Nelson(128k).m4a",
+    "audio": "src/assets/songs/JAILER_-_Hukum_Lyric_Video___Superstar_Rajinikanth___Sun_Pictures___Anirudh___Nelson(128k).m4a",
     "lyrics": "Hukum Tiger Ka Hukum\nHukum Tiger Ka Hukum..\n\nAlappara Kelapparom Dha Paaru Da\nKalavaram Yeranguna Tha Daaru Da\nNelavaram Puriyidha Okkaruda\nThalaivaru Kalathula Super Star’u Da\n\nVaramora Odachida Set Aanavan\nThalamora Kadakura Hit Aanavan\nEliyavan Manasula Fit Aanavan\nMudivula Jeichida Urithaanavan\n\nNadakkura Nada Puyalam Iche\nMudi Odhukkura Style’ah Iche\nKannavilla Ithu Real’ah Iche\n\nThala Mudhal Adi Vara\nThalaivaru Alappara\n\nThani Thala Pola Bail’ah Iche\nAda Nooru’ku Dail’ah Iche\nSethukkura Edam Jail’ah Iche\n\nSera Mudhal Thera Vara\nThalaivaru Alappara\n\nOnn Alumba Paatthavan\nUngoppan Whistle’ah Kaettavan\nOnn Mavanum Peranum\nAatam Poda Veppavan\n\nIvan Paera Thooka Naalu Paeru\nPattatha Parika Nooru Paeru\nKutti Chevutha Etti Paatha\nUsura Kodukka Kodi Paeru\n\nHukum Tiger Ka Hukum..\n\nAlappara Kelapparom\nThalaivaru Nerandharam\n\nNee End Card’u Vaicha\nIvva Trend’ah Mathi Vaippa\nNee Kuriya Paruch’u Vaicha\nIvva Valayil Yeri Nippa\n\nSuthi Adikira Lathi Kitta Sikkina\nAttakathi Ellam Podi Dhaan\nKandabadi Nee Kambeduthu Suthuna\nUchanthalayila Idi Dhaan\n\nNarachiruchinu Morgaikdhe\nDhora Kitta Vanthu Dhoraikadhe\nSirayila Sikki Tholayadhe\nOrasara Varayila Unakoru Korayila\n\nThoda Nerungura Mudiyadhe\nEdhu Izhukudhu Theriyadhe\nKulla Narikkidhu Puriyadhe\n\nVidhigala Thirupura\nThalaivaru Alappara\n\nOnn Alumba Paatthavan\nUngoppan Whistle’ah Kaettavan\nOnn Mavanum Peranum\nAatam Poda Veppavan\n\nIvan Paera Thooka Naalu Paeru\nPattatha Parika Nooru Paeru\nKutti Chevuttha Etti Paatha\nUsura Kodukka Kodi Paeru\n\nAlappara Kelapparom\nThalaivaru Nerandharam\nAlappara Kelapparom\nThalaivaru Nerandharam\n\nHukum Tiger Ka Hukum.."
   },
   {
@@ -104,9 +104,9 @@
     "artist": "Arijit Singh",
     "duration": "4:15",
     "description": "Aa Seetadevi Navvula Lyrics is a Telugu song from the 2014 film Rowdy Fellow.",
-    "cover": "cover/AA SEETADEVI NAVVULA.png",
+    "cover": "src/assets/cover/AA SEETADEVI NAVVULA.png",
     "tag": "HITS",
-    "audio": "songs/Aa_Seetadevi_Navvula_-_Romantic_Mashup___Rowdy_Fellow___Arijit_Singh(128k).m4a",
+    "audio": "src/assets/songs/Aa_Seetadevi_Navvula_-_Romantic_Mashup___Rowdy_Fellow___Arijit_Singh(128k).m4a",
     "lyrics": "Aa Seetadevi Navvula\nUnnave Enti Maatalu\nLakshmanude Leni Ramude\nNeeku Idu Jodu Vide\n\nAndala Butta Bomma\nAchanga Kanti Paapala\nVennello Aa Pillala\nNinnu Talachukundi Ide\n\nChelliyo Chellako Prema Ne Anduko\nNootiko Kotiko Varudu Nenule\nNinnati Janmalo Punyame\nAnduko Kallane Adduko\nVadhuvu Gaane Maripove\n\nEe Kshanam Swayamvaram\nIvala Sambaram\nEe Kshanam Swayamvaram\nIvala Sambaram\n\nVeedu Kolu Leni Thodu\nAndi Swagatham\nEe Kshanam Swayamvaram\nIvala Sambaram\n\nIvalla Ningi Loni Thara\nTalukkumandi Edhurugara\nVayassu Theerikundadara\nHaayi Haayi Haayi\n\nSogasu Panchutunna Dhara\nNee Palukuloni Panchadara\nAa Paina Urukodu Lera\nHaayi Haayi Haayi\n\nUyala Oogutunte Ollo\nEkantam Antu Vere Ledhu Lera\nKallara Ninnu Choosukunte\nHaayi Haayi Haayi Haayi\n\nEe Kshanam Swayamvaram\nIvala Sambaram\nEe Kshanam Swayamvaram\nIvala Sambaram\n\nVeedukolu Leni Thodu\nAndi Swagatham\nEe Kshanam Swayamvaram\nIvala Sambaram\n\nAa Seetadevi Navvula\nUnnave Enti Maatalu\nLakshmanude Leni Ramude\nNeeku Idu Jodu Vide\n\nChelliyo Chellako\nPrema Ne Anduko\nKallane Adduko\nVadhuvu Gane Maripove\n\nEe Kshanam Swayamvaram\nIvala Sambaram\nEe Kshanam Swayamvaram\nIvala Sambaram\n\nVeedukolu Leni Thodu\nAndi Swagatham\nEe Kshanam Swayamvaram\nIvala Sambaram"
   },
   {
@@ -114,9 +114,9 @@
     "artist": "Yeda DSA",
     "duration": "3:51",
     "description": "Yung DSA Biography, Songs. Yung DSA, also known as YEDA YUNG.",
-    "cover": "cover/yeda.png",
+    "cover": "src/assets/cover/yeda.png",
     "tag": "Top 10",
-    "audio": "songs/YUNG_DSA_-_YEDA_YUNG___OFFICIAL_MUSIC_VIDEO___PROD_BY_YD_@yeardown___Gully_Gang_Records___2024__(128k).mp3",
+    "audio": "src/assets/songs/YUNG_DSA_-_YEDA_YUNG___OFFICIAL_MUSIC_VIDEO___PROD_BY_YD_@yeardown___Gully_Gang_Records___2024__(128k).mp3",
     "lyrics": "Ooh Aye, Wussup My Gang, Welcome To Hood!\nPune 6 Rep Karra Kaipar Ban Raha Dude\nMeko Gang Sign Dene Time Nahi Srif Real Shit Baju\nJabhi YUNG Bajta Hood Main Tabhi On Hota Mood\n\nWussup Ma Gang! Welcome To Hood\nPune 6 Rep Kara Kaipar Ban Raha Dude\nMujhe Gang Sign Dene Time Nahi Srif Real Shit Baju\nYeda Yung Bajta Hood Main Tabhi On Hota Mood!\n\nHood Ke Bahar Ruke Call Kare Mujhko Mere Dude\nDene Ke Baat Paile Reppin Ma Crew\nMain OGs Ke Playlist Me Pehle Se Hoo\nBro Jhada Maine Ch*tiiya Log Ke Ginti Me Tu\n\nVocal Aise Jaise Bajta Srif YUNG Old Skool\nGane Tere Sunke Meko Lagta Tu Fool\n\nTere Jaise Char Log Ko Kalti Karu\nTera Awaj Pe Fake Jaise Fake Rehra Tu\n\nChowk Me Rukke Rehte Hattt Uppar Sathh Me 7 Shooter\nMere Homies Log Pan Yede Sedha Haat Uppar\nMeko Laganeka Try Kar Haat Jhat Uppat\n\nTeko Lagra Rahinga Bhonda Lekin Sharp Shooter\nMain Jhadgde Nai Karta Kyun Ke Peace Mera Khoon\nMaen Address Nahi Bolta Bolta TRIPPAGUYZ Se Hu\n\nSeedha Pair Hote Out When You Step In My Hood\nBhonde Try Pan Mat Kar Oar Main Yerwada Ka Dude\n\nHum Log Patre Ke Kholi Se Street Karte Flue\nBachpan Se Sapna Tha Sapna Ko Lu\nTekko Kiaa Mene Feature Q Ke Apna Thha Tuu\nAbhi Kaun Nahi Apna Nusta Reppin Ma Crew\n\nAisa Dekhra Kya Bhonde Ye Blood Walkk Haii Dude\nTekko Jhat Nahi Malum Oar Bole Rap Karta Tuu\nHum Log Sunte The THUG Ko Jab YSL Top Pe Tha\nDekh Mere Lifestyle RMD Bita Tu\n\nHip Hop Ko Hip Hop Se Cop Karra\nShooter Tera Bola Teko YUNG BHAU Ne Drop Kara\nRehne Ka Like Main Jab Main Ghumta NIKE Me\nYUNG SITAR Tabhi Jake Maine Mera Paila Gana Drop Kara\n\nKon Nahi Karneka Ye Cultural Shit\nTabhi Hum Log ‘ch Bajneke TRIP,\nTum Log Sun Ke Humko Fir Diss Karo Hum Koch\n\nTera Hip Hop Nahi Rehra Bro Rehra Fake Shit\nFake Awaz Tera Fake Tera Shit\nFake Homies Tere Fake Tere Drip\nFake Laga Tere Stage Name Ke Paile\nMere Naam Ke Paile TRIPPA Jodte Jab Mai Karta SPIT\n\nWussup Ma Gang! Welcome To Hood!\nPune 6 Rep Karra Kaipar Ban Raha Dude\nMeko Gang Sign Dene Time Nahi Srif Real Shit Baju\nJabhi YUNG Bajta Hood Main Tabhi On Hota Mood!\n\nWussup Ma Gang! Welcome To Hood!\nPune 6 Rep Karra Kaipar Ban Raha Dude\nMeko Gang Sign Dene Time Nahi Srif Real Shit Baju\nYeda Yung Bajta Hood Main Tabhi On Hota Mood!"
   }
 ]

@@ -14,7 +14,7 @@
         background: linear-gradient(
           to bottom,
           rgba(85, 107, 47, 0.8) 5%,
-          #1a1a1a 21%,
+          #1a1a1a 17%,
           #00000083 34%
         );
         color: #fff;
@@ -256,13 +256,13 @@
         margin-left: -15px;
       }
     </style>
-    <!-- <link rel="stylesheet" href="css/song-details.css" /> -->
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/music-player.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- <link rel="stylesheet" href="src/styles/song-details.css" /> -->
+    <link rel="stylesheet" href="src/styles/base.css" />
+    <link rel="stylesheet" href="src/styles/navbar.css" />
+    <link rel="stylesheet" href="src/styles/layout.css" />
+    <link rel="stylesheet" href="src/styles/music-player.css" />
+    <link rel="stylesheet" href="src/styles/footer.css" />
+    <link rel="stylesheet" href="src/styles/responsive.css" />
     <!-- External Dependencies -->
     <link
       rel="stylesheet"
@@ -272,7 +272,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <script src="js/app.js" defer></script>
+    <script src="src/scripts/app.js" defer></script>
   </head>
 
   <body>
@@ -450,10 +450,20 @@
         <div class="songinfo"></div>
 
         <div class="songbuttons">
-          <img width="35" id="previous" src="svg/prevsong.svg" alt="" />
-          <img width="35" id="play" src="svg/play.svg" alt="" />
-          <img width="35" src="svg/pause.svg" alt="" class="hidden pause" />
-          <img width="35" id="next" src="svg/nextsong.svg" alt="" />
+          <img
+            width="35"
+            id="previous"
+            src="src/assets/svg/prevsong.svg"
+            alt=""
+          />
+          <img width="35" id="play" src="src/assets/svg/play.svg" alt="" />
+          <img
+            width="35"
+            src="src/assets/svg/pause.svg"
+            alt=""
+            class="hidden pause"
+          />
+          <img width="35" id="next" src="src/assets/svg/nextsong.svg" alt="" />
         </div>
         <div class="songtime"></div>
       </div>
