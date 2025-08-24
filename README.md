@@ -18,7 +18,7 @@
 A fully functional **Spotify Clone** built with modern web technologies, featuring music playback, responsive design, and user authentication.
 
 ### 🎯 **Live Demo**
-- 🌐 **Live Website**: [spotifyparth.netlify.app](https://noisly.netlify.app/)
+- 🌐 **Live Website**: [noisly.netlify.app](https://noisly.netlify.app/)
 - 📱 **Mobile Responsive**: Works on all devices
 - 🎵 **Full Audio Experience**: Complete music player with controls
 
@@ -85,7 +85,7 @@ spotify-clone/
 ## 🚀 **Getting Started**
 
 ### 🌐 **Quick Access**
-- **� Live Website**: Visit [spotifyparth.netlify.app](https://noisly.netlify.app/) - No installation required!
+- **� Live Website**: Visit [noisly.netlify.app](https://noisly.netlify.app/) - No installation required!
 - **�📋 Source Code**: View on [GitHub](https://github.com/ParthPipermintwala/Spotify-Clone)
 
 ### 🛠️ Local Development
@@ -165,10 +165,10 @@ spotify-clone/
 ### 🆘 **Getting Help**
 - **Issues**: [GitHub Issues](https://github.com/ParthPipermintwala/Spotify-Clone/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/ParthPipermintwala/Spotify-Clone/discussions)
-- **Live Website**: [spotifyparth.netlify.app](https://noisly.netlify.app/)
+- **Live Website**: [noisly.netlify.app](https://noisly.netlify.app/)
 
 ### 🔗 **Links**
-- **Live Demo**: [spotifyparth.netlify.app](https://noisly.netlify.app/)
+- **Live Demo**: [noisly.netlify.app](https://noisly.netlify.app/)
 - **Source Code**: [GitHub Repository](https://github.com/ParthPipermintwala/Spotify-Clone)
 - **Issues**: [GitHub Issues](https://github.com/ParthPipermintwala/Spotify-Clone/issues)
 
